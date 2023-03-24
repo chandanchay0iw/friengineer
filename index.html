@@ -2,81 +2,165 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friengineer Clans</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
-    </style>
-    <style>
-        #test {
-            position: absolute;
-            top: 20%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-family: 'Tilt Prism', cursive;
-            color: yellow;
-            font-size: 45px;
-        }
-        #mainpage{
-            background-image : url("friengineer logo.png");
-            background-position: center;
-            background-size: cover;
-            
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Friengineer Clans</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/team.css">
+  <link rel="stylesheet" href="css/animation.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Friengineer</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
-        </div>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#"><img src="images/logo.png" alt=""></a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
     </nav>
 
+  </header>
+  <section class="mainsection">
+    <div class="background"></div>
+    <div class="mainpage">
+      <div class="text">
+        <h1>Welcome to <span> Friengineer</span></h1>
+        <p>Thank you for visiting our website. We are a community of engineers who love to learn and share our knowledge
+          with others.</p>
+        <button>Contact US</button>
+      </div>
+      <div class="wrap">
+        <div class="cube">
+          <div class="front">
+            <img src="images/1.png" alt="">
+          </div>
+          <div class="back">
+            <img src="images/4.png" alt="">
+          </div>
+          <div class="top">
+            <img src="images/3.png" alt="">
+          </div>
+          <div class="bottom">
+            <img src="images/5.png" alt="">
+          </div>
+          <div class="left">
+            <img src="images/2.png" alt="">
+          </div>
+          <div class="right">
+            <img src="images/6.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="college">
+    <h2>College Essential</h2>
+    <div class="images-container">
+      <a href="#" class="image-link">
+        <div class="image-wrapper">
+          <img src="images/4.png" alt="Image 1">
+        </div>
+      </a>
+      <a href="#" class="image-link">
+        <div class="image-wrapper">
+          <img src="images/3.png" alt="Image 2">
+        </div>
+      </a>
+      <a href="#" class="image-link">
+        <div class="image-wrapper">
+          <img src="images/6.png" alt="Image 3">
+        </div>
+      </a>
+      <a href="#" class="image-link">
+        <div class="image-wrapper">
+          <img src="images/1.png" alt="Image 4">
+        </div>
+      </a>
+    </div>
+  </section>
 
-    <section id="mainpage" style="background-color: aliceblue; height: 100vh; margin: auto; width: 100vw;">
-        <p id="test"> Website is coming soon... </p>
-    </section>
+
+  <section class="team">
+    <div class="college">
+      <h2>Our Team</h2>
+      <div class="clans row">
+        <div class="clan col-md-4">
+          <img src="images/chandan.png" alt="Chandan">
+          <h3>Chandan</h3>
+          <p>UIET Kurukshetra - B.Tech (CSE)</p>
+        </div>
+        <div class="clan col-md-4">
+          <img src="images/lovely.png" alt="Lovely">
+          <h3>Lovely</h3>
+          <p>UIET Kurukshetra - B.Tech (CSE)</p>
+        </div>
+        <div class="clan col-md-4">
+          <img src="images/aman.png" alt="Aman">
+          <h3>Aman</h3>
+          <p>UIET Kurukshetra - B.Tech (CSE)</p>
+        </div>
+        <div class="clan col-md-4">
+          <img src="images/naman.png" alt="Naman">
+          <h3>Naman</h3>
+          <p>UIET Kurukshetra - B.Tech (CSE)</p>
+        </div>
+        <div class="clan col-md-4">
+          <img src="images/sahil.png" alt="Sahil">
+          <h3>Sahil</h3>
+          <p>UIET Kurukshetra - B.Tech (CSE)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="YouTube container-xxl">
+    <h2>Youtube</h2>
+    <div class="YT-Video my-3">
+      <iframe class="embed" src="https://www.youtube.com/embed/vuHSNcwLCOs" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="contact-btn">
+        <a href="https://www.instagram.com/friengineer">
+            <i class="fa fa-instagram"></i>
+        </a>
+        <a href="https://www.youtube.com/@friengineerclans">
+            <i class="fa fa-youtube"></i>
+        </a>
+        <a href="mailto:friengineerclans@gmail.com">
+            <i class="fa fa-envelope"></i>
+        </a>
+        <div>
+            <i class="fa fa-share-alt"></i>
+        </div>
+    </div>
+ </section>
+
+
+  <footer>
+    <p class="text-center"> Made with ❤️ by Friengineer</p>
+  </footer >
+  <script src="js/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
